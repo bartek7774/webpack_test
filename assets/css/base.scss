@@ -1,0 +1,19 @@
+body{
+  background-color:lightblue;
+  p{
+    color:crimson;
+    background-color: chartreuse;
+    animation-name: push;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+  }
+}
+@keyframes push{
+  from{
+    width: 10px;
+  }
+  to{
+    width: 150px;
+  }
+}
